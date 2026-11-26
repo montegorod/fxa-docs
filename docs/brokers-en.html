@@ -121,7 +121,7 @@ footer{max-width:820px;margin:0 auto;padding:16px 18px 30px;color:var(--muted);f
 </style>
 <!-- fxa-analytics -->
 <script data-goatcounter="https://ric.goatcounter.com/count" data-goatcounter-settings="{&quot;path&quot;:&quot;/fxa-docs/brokers-en&quot;}" async src="//gc.zgo.at/count.js"></script>
-<script>(function(){var P="/fxa-docs/brokers-en";function ev(p,t){if(window.goatcounter&&goatcounter.count)goatcounter.count({path:p,title:t||"",event:true})}function oc(e){var a=e.target.closest&&e.target.closest("a[href]");if(!a)return;var u;try{u=new URL(a.href,location.href)}catch(x){return}if(!/^https?:$/.test(u.protocol))return;var pdf=/\.pdf$/i.test(u.pathname);if(u.host===location.host&&!pdf)return;ev("click: "+u.host+u.pathname+" | "+P,(a.textContent||"").trim().slice(0,80))}document.addEventListener("click",oc);document.addEventListener("auxclick",function(e){if(e.button===1)oc(e)})})();</script>
+<script>(function(){var P="/fxa-docs/brokers-en";function ev(p,t){if(window.goatcounter&&goatcounter.count)goatcounter.count({path:p,title:t||"",event:true})}function oc(e){var a=e.target.closest&&e.target.closest("a[href]");if(!a)return;var u;try{u=new URL(a.href,location.href)}catch(x){return}if(!/^https?:$/.test(u.protocol))return;var pdf=/\.pdf$/i.test(u.pathname);if(u.host===location.host&&!pdf)return;var to=a.getAttribute("data-tg")?"tg "+a.getAttribute("data-tg")+" (invite fxa-docs)":u.host+u.pathname;ev("click: "+to+" | "+P,(a.textContent||"").trim().slice(0,80))}document.addEventListener("click",oc);document.addEventListener("auxclick",function(e){if(e.button===1)oc(e)})})();</script>
 <!-- /fxa-analytics -->
 </head>
 <body>
